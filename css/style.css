@@ -10,13 +10,14 @@ nav > a:focus {
      text-decoration: underline;
 }
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
-div > .skip {
-     height: 40px;
+.skip a{
+     position: absolute;
+     top: -40px;
 }
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 
-.skip:focus {
-    height: -20px;
+.skip a:focus {
+    top: 20px;
 }
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 
@@ -38,7 +39,6 @@ first div in the grid  and place it in the grid. */
      grid-column: 1/4;
      background-image: url("/images/header.jpg");
 }
-
 
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
@@ -91,9 +91,9 @@ first div in the grid  and place it in the grid. */
 
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
+     margin:auto;
      text-align: center;
-     height: 50%;
-     /* width: 50%; */
+     width: 50%;
 }
 
 /* Add your media query here */
