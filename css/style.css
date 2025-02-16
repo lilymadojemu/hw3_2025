@@ -93,7 +93,7 @@ first div in the grid  and place it in the grid. */
 .text-block {
      margin:auto;
      text-align: center;
-     width: 50%;
+     width: auto;
 }
 
 /* Add your media query here */
